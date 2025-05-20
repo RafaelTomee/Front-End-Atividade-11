@@ -1,0 +1,51 @@
+body {
+            height: 100vh;
+            margin: 0;
+            background-size: 100% 200%;
+            background-position: top;
+            animation: backgroundScroll 10s linear infinite;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+
+            .a {
+                color: aqua;
+            }
+
+            div {
+                color: white;
+                img {
+                height: 150px;
+                width: 150px;
+            }
+            }
+
+            
+        }
+
+        .destaque {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            /* Alinha o texto e a imagem verticalmente */
+            gap: 20px;
+            /* Espaçamento entre o texto e a imagem */
+            margin-bottom: 40px;
+            justify-content: flex-start;
+        }
+
+        main{
+           img {
+                height: 200px;
+                width: 300px;
+            } 
+        }
+
+        .botao{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
